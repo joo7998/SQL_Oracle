@@ -472,3 +472,5 @@ SELECT first_name, salary,
     DENSE_RANK() OVER (ORDER BY salary DESC) as "DENSE RANK",  --  중복 순위 관계 없이 바로 다음 순위 부여
     ROW_NUMBER() OVER (ORDER BY salary DESC) as "ROW NUMBER" -- RANK가 출력된 레코드 순서
 FROM employees;
+
+--commit test

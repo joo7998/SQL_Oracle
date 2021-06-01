@@ -104,3 +104,4 @@ SELECT * FROM emp123;
 ROLLBACK;   --  TRUNCATE는 롤백의 대상이 아니다
 SELECT * FROM emp123;
 
+--commit test
