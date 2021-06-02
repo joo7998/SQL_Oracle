@@ -23,3 +23,4 @@ CREATE SEQUENCE seq_phone_book_pk
     MAXVALUE 100000000
     NOCACHE;
 
+--commit push test
