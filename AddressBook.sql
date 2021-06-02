@@ -31,12 +31,22 @@ INSERT INTO phone_book VALUES (3, 'Micheal', '010-99**-77**','02-43**-90**');
 INSERT INTO phone_book VALUES (4, 'Sam', '010-88**-90**','02-43**-90**');
 INSERT INTO phone_book VALUES (5, 'Park', '010-98**-14**','02-9**-98**');
 
-COMMIT;
+SELECT * FROM phone_book;
+
+
+
+
+DELETE phone_book
 
 SELECT * FROM phone_book;
 
-DESC phone_book
+INSERT INTO phone_book VALUES (1, 'Coco', '010-10**-23**','02-43**-90**');
+INSERT INTO phone_book VALUES (2, 'Nana', '010-55**-55**','02-43**-90**');
+INSERT INTO phone_book VALUES (3, 'Micheal', '010-99**-77**','02-43**-90**');
+INSERT INTO phone_book VALUES (4, 'Sam', '010-88**-90**','02-43**-90**');
+INSERT INTO phone_book VALUES (5, 'Park', '010-98**-14**','02-9**-98**');
 
+SELECT * FROM phone_book;
 
 
 
